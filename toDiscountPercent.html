@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>คำนวณเปอร์เซ็นจากส่วนลด </title>
+</head>
+
+<body>
+<div class="container">
+    <div class="menu">
+        <!-- <a class="toDiscountPercent" href="toDiscountPercent.html">คำนวณเปอร์เซ็นจากราคาส่วนลด</a> -->
+        <a class="toDiscountPrice" href="toDiscountPrice.html"> หาส่วนลดจากเปอร์เซ็น</a>
+    </div>
+        <h1> คำนวณเปอร์เซ็นจากราคาส่วนลด</h1>
+        <div class="inner">
+            <div class="calculator">
+                <p>ราคาเต็ม/บาท</p>
+                <input type="number" id="fill_FullPrice">
+                <p>ส่วนลด/บาท</p>
+                <input type="number" id="fill_DiscountPrice">
+                <div class="calculator-btn">
+                    <button id="Calculated" onclick="toDiscountPercent()">คำนวณ</button>
+                    <button> <a href="toDiscountPercent.html">ล้างข้อมูล</a></button>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="result">
+                <p>ส่วนลด</p> 
+                <div id="discount-result"></div>
+                <p>เหลือราคา</p>
+                <div id="totalPrice"></div>
+            </div>
+        </div>
+    </div>
+    <h6>© THANANYA RUNGJANYARAK 4 NOV 2020</h6>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

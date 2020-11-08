@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    font-family: prompt;
+    color: blue;
+    
+}
+
+body {
+    padding: 5%;
+    background: rgb(108, 141, 155);   
+     
+    
+}
+
+.menu  a {
+    text-decoration: none;
+    background-color: oldlace;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 5px 5px gray;
+    padding : 5px 20px;
+    margin:  10px;  
+}
+
+.menu {
+    padding : 10px;
+    /* border: 1px solid #000;
+     */
+    font-size: 12px;
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    
+    
+}
+.container {
+    position: relative;
+    max-width: 1150px;
+    box-sizing: border-box;
+    border: 1px solid blue; 
+    border-radius: 20px;  
+    box-shadow: 8px 10px blue;
+    background-color: oldlace; 
+   
+    
+    
+}
+
+h1 {      
+    border-bottom: 1px solid blue;     
+    padding: 10px 45px;
+    
+}
+
+.inner {
+    display: flex;
+    padding: 20px;
+
+  
+}
+
+/* left section */
+
+.calculator {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 15%;
+}
+
+.calculator p, .calculator-btn {
+    margin: 10px 0px;
+}
+
+.calculator-btn {
+    margin-left: -20px;
+    
+    
+}
+.calculator-btn button {
+    
+    background-color: oldlace;
+    border: 1px solid blue;
+    border-radius: 20px;
+    box-shadow: 5px 5px blue;
+    padding : 5px 20px;
+    margin: 10px 10px 
+    
+}
+
+.calculator-btn a {
+    text-decoration: none;
+}
+
+
+.line {
+    width: 2px;
+    height: 300px;
+    background-color: blue;
+
+}
+
+/* right section */
+
+.result {
+    padding: 20px;
+    font-size: 20px;
+ 
+    position: absolute;
+    left: 65%;
+
+}
+
+#discount-result ,#totalPrice {
+    
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: blue;
+    margin: 10px 0px 30px 30px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+h6 {
+    position: absolute;
+    bottom: 5px;
+    text-align: right;
+    right: 70px;
+    color: oldlace;
+    font-weight: 300;
+}
